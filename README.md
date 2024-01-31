@@ -7,3 +7,5 @@
 Разработано на основе библиотеки "streamlib". 
 
 Используемая модель - "papluca/xlm-roberta-base-language-detection" из библиотеки машинного обучения Hugging Face.
+
+Web-версия: https://finalproject-q9oca8u2zdv7cmbh9ry2uz.streamlit.app
