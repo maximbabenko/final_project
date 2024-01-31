@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 from transformers import pipeline
 import streamlit as st
 
@@ -27,10 +21,3 @@ if identify:
     out = model(text, top_k=1, truncation=True)
     st.write('Результат')
     st.success(out)
-
-
-# In[3]:
-
-
-model
-
